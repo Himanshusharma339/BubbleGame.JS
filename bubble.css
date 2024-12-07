@@ -1,0 +1,86 @@
+
+
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(202,238,202);
+ 
+}
+#panal{
+    
+    overflow: hidden;
+    width: 80%;
+    height: 80%;
+    border-radius: 10px;
+    background-color: #fff;
+}
+#ptop{
+    padding: 0 30%;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(27, 198, 27);
+
+    width: 100%;
+    height: 100px;
+   
+
+}
+.elem{
+    display: flex;
+    align-items: center;
+    gap:20px;
+    /* background-color: rgb(29, 87, 137); */
+    color: white;
+}
+.box{
+    padding: 10px 20px;
+    background-color:#fff;
+    border-radius: 5px;
+    color: #1eb225;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 5px;  
+    
+}
+#pbtm{
+   
+    display: flex;
+    flex-wrap:wrap;
+    gap: 10px;
+    padding:20px;
+    width:100%;
+    height: calc(100% - 100px);
+
+}
+.bubble{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width:60px;
+    height:60px;
+    cursor: pointer;
+    background-color: rgb(38, 179, 165);
+    color: #fff;
+    border-radius:50%;
+}
+.elem h2{
+    font-weight: 500;
+}
